@@ -1,4 +1,4 @@
-[Live Site](https://kl-tiktik.vercel.app/)
+View: [Live Site](https://kl-tiktik.vercel.app/)
 
 ## Layout
 
