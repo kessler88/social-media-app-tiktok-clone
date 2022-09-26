@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[Live Site](https://kl-tiktik.vercel.app/)
 
-## Getting Started
+## Layout
 
-First, run the development server:
+Login & Logout with Google Identity Service:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![image](https://user-images.githubusercontent.com/67879767/192185295-dbef77c7-c50f-48b0-8ddd-a9f86e556dab.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Screenshot 2022-09-25 225820](https://user-images.githubusercontent.com/67879767/192185335-3908e9ee-b605-4e05-8550-4c34b83f733b.jpg)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Functional Video Upload:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![image](https://user-images.githubusercontent.com/67879767/192185595-69deccf8-4b42-493b-afa3-a91ba697a8ad.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Functional Like & Comment:
 
-## Learn More
+![image](https://user-images.githubusercontent.com/67879767/192185893-eb7b3799-1a10-48fb-9a7c-5374dce81d76.png)
 
-To learn more about Next.js, take a look at the following resources:
+Functional Search Bar:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://user-images.githubusercontent.com/67879767/192185754-42c03bb0-0312-453a-a694-2ec6896454c2.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+User profile: 
 
-## Deploy on Vercel
+![image](https://user-images.githubusercontent.com/67879767/192186006-ab82278a-08b6-4a92-adc8-7b8710564d5b.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
