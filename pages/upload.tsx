@@ -78,8 +78,8 @@ const Upload = () => {
   }
 
   return (
-    <div className="flex w-full h-full absolute left-0 top-[60px] mb-10 pt-10 lg:pt-20 bg-[#f8f8f8] justify-center">
-      <div className="bg-white rounded-lg xl:h-[80vh] w-[50%] flex gap-6 flex-wrap justify-between items-center p-14 pt-6">
+    <div className="flex w-full h-[full] absolute left-0 top-[60px] mb-10 pt-10 lg:pt-20 bg-[#f8f8f8] justify-center">
+      <div className="bg-white rounded-lg xl:h-[80vh] xl:w-[50%] flex gap-6 flex-wrap justify-between items-center p-14 pt-6">
         {/* upload video section*/}
         <div>
           <div>
@@ -88,18 +88,18 @@ const Upload = () => {
               Post a video to your account
             </p>
           </div>
-          <div className="border-dashed rounded-xl border-4 border-gray-200 flex flex-col justify-center mt-10 items-center outline-none empty-10 w-[260px] h-[460px] p-10 cursor-pointer hover:border-red-300 hover:bg-gray-100">
+          <div className="border-dashed rounded-xl border-4 border-gray-200 flex flex-col justify-center mt-10 items-center outline-none empty-10 w-[250px] h-[450px] p-10 cursor-pointer hover:border-red-300 hover:bg-gray-100">
             {isLoading ? (
               <p>Uploading...</p>
             ) : (
               <div>
                 {videoAsset ? (
-                  <div>
+                  <div className=' rounded-3xl w-[300px] p-4 flex flex-col gap-6 justify-center items-center'>
                     <video
                       src={videoAsset.url}
                       loop
                       controls
-                      className="rounded-xl h-[450px]  mt-16 bg-black"
+                      className="rounded-xl h-[450px] bg-black"
                     ></video>
                   </div>
                 ) : (
@@ -149,7 +149,7 @@ const Upload = () => {
           />
           <label className="text-md font-medium">Choose a Category</label>
           <select
-            className="outline-none border-2 border-gray-200 text-md capitalize lg:p-4 p-2 rounded cursor-pointer"
+            className="outline-none border-2 border-gray-200 text-md capitalize lg:p-3 p-2 rounded cursor-pointer"
             onChange={(e) => setCategory(e.target.value)}
           >
             {topics.map((topic) => (
