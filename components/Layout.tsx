@@ -5,7 +5,7 @@ const Layout = ({children}: any) => {
   return (
     <div>
     <Head>
-      <title>KL TikTik</title>
+      <title>Reelsy</title>
       <link rel="icon" href="/video-call.png" />
     </Head>
     <main>
